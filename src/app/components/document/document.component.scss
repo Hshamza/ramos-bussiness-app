@@ -1,0 +1,54 @@
+.overlap-gap-section {
+  padding: 100px;
+  padding-left: 65px;
+
+  .lead {
+    width: 70%;
+    font-weight: 400;
+  }
+
+  .btn-orrange {
+    background: #FD4930;
+    padding: 10px 20px;
+    color: #fff;
+  }
+
+  .text-dark-gray {
+    font-size: 80px;
+  }
+
+  .btn-gray {
+    background: #F2F2F2;
+    padding: 10px 20px;
+  }
+
+  .call-action {
+    border-top: 1px solid #eee;
+    margin-top: 45px;
+    padding-top: 23px;
+  }
+
+  .bg-yellow {
+    background-color: #dbcc38;
+    overflow: hidden;
+    max-width: 350px;
+    max-height: 110px;
+    border-radius: 40px
+  }
+
+  @keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .move-left-to-right {
+    display: inline-block;
+    animation: moveLeftToRight 5s linear infinite;
+  }
+
+}

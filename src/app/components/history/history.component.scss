@@ -1,0 +1,82 @@
+
+.card-header {
+  border-radius: 42px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.card-header h6 {
+  margin-bottom: 0;
+}
+
+.lni-chevron-up {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.collapse.show + .card-header {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.collapse + .card-header {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.section-heading {
+  background-color: #fbf9f9
+}
+.faq-section {
+  padding-right: 70px;
+    padding-bottom: 190px;
+    background-color: #fbf9f9;
+    z-index: -1;
+}
+
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #F9F9F9;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+    width: 324px;
+    background-color: #fbf9f9;
+
+    .fa-icon {
+      background-color: #F9F9F9;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      border-radius: 20px;
+      padding: 2px;
+      color: black;
+      font-weight: normal;
+    }
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #ffffff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    padding: 1.75rem 2rem;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -10,6 +10,7 @@ import { ReportComponent } from './components/report/report.component';
 import { DocumentComponent } from './components/document/document.component';
 import { HistoryComponent } from './components/history/history.component';
 import { SettingComponent } from './components/setting/setting.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SettingComponent } from './components/setting/setting.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],

@@ -1,0 +1,71 @@
+.report-content {
+  background-color: #F9F9F9;
+
+  .container {
+    .first-card {
+      border: none;
+    }
+
+    .main-card {
+      border-radius: 32px;
+      border: 1px solid #f9d3d3;
+
+    }
+
+    .card-body {
+
+      .header-button {
+        padding: 10px;
+        padding-bottom: 110px;
+      }
+
+      .btn-yellow {
+        background: #d9d924;
+      }
+
+      .header-description {
+        color: #979393;
+      }
+
+
+    }
+
+    .sales-img {
+      margin-bottom: 58px;
+      margin-top: 20px;
+    }
+
+    .sales {
+      border-right: none;
+      border-radius: 10px;
+      padding: 25px;
+
+      .card-body {
+        display: contents;
+      }
+
+
+    }
+
+    .second-card {
+      background: black;
+      text-align: center;
+      padding: 50px;
+      border-radius: 30px;
+
+      .card-body {
+        display: contents;
+
+        .content {
+          color: white;
+          padding: 20px;
+
+          p {
+            padding: 5px;
+            color: #979393;
+          }
+        }
+      }
+    }
+  }
+}
