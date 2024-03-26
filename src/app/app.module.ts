@@ -11,6 +11,7 @@ import { DocumentComponent } from './components/document/document.component';
 import { HistoryComponent } from './components/history/history.component';
 import { SettingComponent } from './components/setting/setting.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AnimationTriggerDirective } from './animation-trigger.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReportComponent,
     DocumentComponent,
     HistoryComponent,
-    SettingComponent
+    SettingComponent,
+    AnimationTriggerDirective
   ],
   imports: [
     BrowserModule,

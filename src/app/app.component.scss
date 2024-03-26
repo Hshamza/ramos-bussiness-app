@@ -31,3 +31,25 @@ section#setting {
   height: 100vh;
   padding-top: 100px;
 }
+
+.animate-in {
+  /* Define your animation properties here */
+  animation-name: slideInFromBottom;
+  animation-duration: 1.5s;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.section-slide-in {
+  animation: slideInFromBottom 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+

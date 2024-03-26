@@ -1,9 +1,16 @@
 .report-content {
   background-color: #F9F9F9;
+  padding-bottom: 135px;
+
 
   .container {
+
     .first-card {
       border: none;
+    }
+
+    .top-content {
+      padding-bottom: 20px;
     }
 
     .main-card {
@@ -16,7 +23,7 @@
 
       .header-button {
         padding: 10px;
-        padding-bottom: 110px;
+        padding-bottom: 20px;
       }
 
       .btn-yellow {
@@ -68,4 +75,47 @@
       }
     }
   }
+}
+
+.second-card {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #06311b;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: #101010;
+    color: white;
+  }
+
+  .layer {
+    font-size: 40px;
+    padding: 14px;
+    color: #b5b510;
+  }
+
+  .avatars {
+    padding: 10px;
+  }
+
+  .avatars img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+
+  #value {
+    font: 400 40px system-ui;
+  }
+
 }

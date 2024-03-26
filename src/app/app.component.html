@@ -2,19 +2,27 @@
   <div>
     <app-header></app-header>
 
-    <section id="dashboard">
+    <section id="dashboard" class="snap-start" appAnimationTrigger [triggerRoute]="'#dashboard'"
+      [animateOnNavigation]="currentRoute === '#dashboard'">
+
       <app-dashboard></app-dashboard>
     </section>
-    <section id="report">
+
+
+    <section id="report" appAnimationTrigger [triggerRoute]="'#report'"
+      [animateOnNavigation]="currentRoute === '#report'">
       <app-report></app-report>
     </section>
-    <section id="document">
+    <section id="document" appAnimationTrigger [triggerRoute]="'#document'"
+      [animateOnNavigation]="currentRoute === '#document'">
       <app-document></app-document>
     </section>
-    <section id="history" class="snap-center">
+    <section id="history" appAnimationTrigger [triggerRoute]="'#history'"
+      [animateOnNavigation]="currentRoute === '#history'">
       <app-history></app-history>
     </section>
-    <section id="setting" class="snap-center">
+    <section id="setting" appAnimationTrigger [triggerRoute]="'#setting'"
+      [animateOnNavigation]="currentRoute === '#setting'">
       <app-setting></app-setting>
     </section>
     <section id="footer" class="snap-center">
